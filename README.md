@@ -1,14 +1,35 @@
 # Challenge ONE | Java | Back-end | Hotel Alura
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/91544872/189419249-06b539da-7cf2-4d40-a711-618a5c872096.png">
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/75176552/236646458-4756e21e-5ecd-4fb9-90df-fa8cbf3734d9.png">
 </p>
 
+### Indice
 
+- [Bienvenida](#bienvenido-al-proyecto-hotel-alura)
+- [Descripcion](#descripcion)
+- [Tecnologías Utilizadas](#%EF%B8%8F-tecnolog%C3%ADas-utilizadas)
+- [Importante](#%EF%B8%8F-importante-%EF%B8%8F)
+- [Funcionalidad](#funcionalidades)
+- [Añadido adicional](#a%C3%B1adido-adicional)
+- [Visualizar proyecto](#visualizar-proyecto)
+- [Ejecutar proyecto](#ejecutar-proyecto)
+- [Desarrollador](#desarrollador)
+
+
+## ¡Bienvenido al proyecto Hotel Alura!
+
+En este repositorio se mostrara el challenge Hotel Alura y la explicación del funcionamiento del programa
+
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236646458-4756e21e-5ecd-4fb9-90df-fa8cbf3734d9.png">
+</p>
+
+## Descripcion
 ## Este repositorio contiene el código fuente para la solución del desafío de crear una aplicación CRUD utilizando JDBC y Swing. El objetivo del desafío es desarrollar una aplicación que permita realizar operaciones CRUD en una base de datos relacional.
 </br>
 
-## 🖥️ Tecnologías Utilizadas:
+## 🖥️ Tecnologías Utilizadas.
 
 - Java
 - Eclipse
@@ -21,47 +42,167 @@
 ---
 ## ⚠️ Importante! ⚠️
 
-☕ Use Java versión 8 o superior para compatibilidad. </br></br>
-📝 Recomendamos usar el editor de Eclipse para compatibilidad con la Interfaz Gráfica. </br></br>
+☕ Use Java versión 8 o superior para compatibilidad. [Java](https://www.java.com/en/download/)
+</br></br>
+📝 Se recomienda usar el editor de Eclipse para compatibilidad con la Interfaz Gráfica. [Eclipse standard](https://www.eclipse.org/downloads/) 
+</br></br>
 🎨 La interfaz contiene dos métodos importantes:
 - setResizable(false): determina el tamaño de la ventana, y a través del parámetro <strong>false</strong>, la pantalla no se puede maximizar;
 - setLocationRelativeTo(null): determina la ubicación de la ventana, y a través del parámetro <strong>null</strong> la mantiene centrada en la pantalla.
 
-#### Para este desafío, concéntrate en la parte lógica y la conexión con la base de datos, después de completar el desafío, siéntate libre de agregar nuevas funciones y modificar la interfaz gráfica.
----
 
-## Videos de solución 
-Para ayudarte aún más en esta jornada de aprendizaje hemos creado estos videos de solución con las partes estratégicas para la realización de este desafío. Recuerda que esta es solo una de las infinitas formas de llevar a cabo el desafío, aprovechen para estudiar los códigos y también compartan entre ustedes sus resoluciones y opiniones acerca de su proyecto.
+## Funcionalidades
 
-- [Realiza una conexión a la base de datos e guarda tus registros](https://www.youtube.com/watch?v=1luEBNCweG4)
-- [Muestra los registros a través de la aplicación](https://youtu.be/8y5fqKVfDWU)
+### Generales
+:heavy_check_mark: `Funcionalidad 1:`Sistema de autenticación de usuario para que solo usuarios pertenecientes al hotel consigan acceder al sistema.
+
+:heavy_check_mark: `Funcionalidad 2:` Permitir crear, editar y eliminar una reserva para los clientes.
+
+:heavy_check_mark: `Funcionalidad 3:` Buscar en la base de datos todas las informaciones tanto de los clientes como de las reservas.
+
+:heavy_check_mark: `Funcionalidad 4:` Registrar, editar y eliminar datos de los huéspedes.
+
+:heavy_check_mark: `Funcionalidad 5:` Calcular el valor de la reserva en base a la cantidades de días de la reserva y a una tasa diaria que puede ser asignada por ti y en la moneda local de tu país.
+
+:heavy_check_mark: `Funcionalidad 6:` Base de datos para almacenar todos los datos pedidos anteriormente. <br><br>
+En este caso se creo un programa simple para crear base de datos y tablas con su respectiva informacion (filas, columnas, etc..). 
+<br>
+Un ejemplo de esto es el siguente.
+
+1.- Primero se abrira una ventana de inicio de sesion para conectar con el servidor. 
+    Se pedira los siguientes datos:
+ * La url en mi caso (jdbc:mysql://localhost:3306)
+ * El nombre de la base de datos. si no haz creado una anteriormente deja en blanco este campo.
+ * El usuario de la base de datos.
+ * Y la contraseña. 
+
+<br>
+
+Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
+
+<br>
+
+2.- En caso de que no tegas base de datos se abrira otra ventana donde te pedira un nombre para tu base de datos.
+
+<br>
+
+Click [Aqui](#creando-base-de-datos) para mirar imagen
+
+<br>
+
+3.- Una vez que hayas creado la base de datos se te volvera a abrir la ventana de Inicio de sesion.
+
+<br>
+Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
+
+<br>
+
+4.- y ahora se abrira otro ventana en donde crearas tu tabla utilizando la base de datos que haz hecho.
+<br>
+
+Click [Aqui](#creando-tabla-utilizando-la-base-de-datos-creada-o-existente) para mirar imagen.
+
+<br>
 
 
-## 📬 Entrega
+listo haz creado una base de datos con su tabla y parametros. 😀 
 
-### ¿Cómo incluir mi proyecto con el "#" del desafío?
+### Añadido adicional
 
-1) Ten el <strong>Fork</strong> del proyecto en tu repositorio en Github.
-2) Utilize el topico **#challengeonehotelaluralatam4** </br>
-3) Ve a la pestaña derecha de tu proyecto y haz clic en el engranaje de configuración en la sección <em>About</em>, seleccione el campo **topics** e inserte la etiqueta **challengeonehotelaluralatam4**
+:heavy_check_mark: `Funcionalidad 1:` Aplicacion para crear base de datos y tablas.<br>
 
-
-### ¿Cómo hago la entrega final de mi Proyecto?
-
-4) Rellena el siguiente formulario con tus datos personales, junto con el enlace de tu repositorio. 🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-esp-back-end)
-
+## INICIAR SESION EN EL SERVIDOR
 <p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/53662778/225654748-b9ee1a2c-5b9d-4723-a787-192c65f296ae.png">
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236652548-00b092ab-ce72-4745-9869-3eed455a4bbe.png">
+</p>
+<br>
+
+## CREANDO BASE DE DATOS.
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236652602-5caf77df-f2ff-4c3c-a6da-c7e054c6360b.png">
 </p>
 
-5) Ve a tu correo electrónico y canjea tu insignia obtenida al completar otro desafío del Proyecto ONE! 🏆
+## CREANDO TABLA UTILIZANDO LA BASE DE DATOS CREADA O EXISTENTE
 
-6) ¡No olvides poner un enlace o video de tu proyecto en Linkedin! Etiqueta a #Oracle y #AluraLatam 🏁
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236653027-44c6a421-caa6-4288-abd2-8137d52f2fcd.png">
+</p>
 
-🧡 <strong>Oracle</strong></br>
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+:heavy_check_mark: `Funcionalidad 2:` Se añadio boton de cerrar aplicacion tanto para Login como para Menu Principal. <br>
+LOGIN.
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236645628-164bdb69-9a1d-48b4-9b0e-ca7a0b78e79c.png">
+</p>
+MENU PRINCIPAL.
 
-💙 <strong>Alura Latam</strong></br>
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236649386-c00b785d-41f6-416b-876b-6246447136f8.png">
+</p>
+
+Tambien se añadio boton de Cerrar sesion en el MenuUsuario.
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236649538-92437034-fc47-43f4-b05c-8ac8dd541c89.png">
+</p>
+
+:heavy_check_mark: `Funcionalidad 3:` Crear usuario. Se añade nueva ventana de Registro de usuario. 
+
+Primero se notifica al Cliente si quiere crear un usuario.
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236647762-835ea2be-d65f-466f-8fef-df0f6314ce42.png">
+</p>
+
+En caso de que si. Se visualizara la ventana de Registro de Usuario.
+
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236648617-0ed3b0f4-5f78-4448-b69a-a17f560a3a9d.png">
+</p>
+
+Se verifica si el usuario y contraseña no sean nulos.
+
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236648727-7e4b1f00-6144-44db-926e-aaf91c2983c4.png">
+</p>
+
+:heavy_check_mark: `Funcionalidad 4:` Se añadieron nuevas ventanas que simulan la creacion de un usuario, cierre de sesion y cerrando aplicacion (se utilizo el mismo diseño para agilizar la creacion de estas ventanas).
+
+CREACION DE USUARIO. Aqui se notifica que usuario se creo en este caso es: admin.
+
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236649245-5ef7b60a-41a3-436b-a576-d85cce55d1e4.png">
+</p>
+
+CIERRE DE SESION
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236648170-878d602e-8eb9-4b35-be97-40b896d9f34b.png">
+</p>
+CERRANDO APLICACIOn
+
+<p align="center" >
+     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236648156-34dc018e-5d1e-419e-b3cb-305becbfd7a6.png">
+</p>
+
+:heavy_check_mark: `Funcionalidad 5:` Iniciar sesion con el usuario registrado.
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236647364-6410e2ad-9205-43b0-b53d-5a135f26ff62.png">
+</p>
+
+:heavy_check_mark: `Funcionalidad 6:` Verificar si el usuario exite (en este caso se notificara que el usuario o contraseña son incorrectos)
+
+<p align="center" >
+     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/75176552/236646988-fd7492dd-c2aa-4296-9c14-484f46c77aba.png">
+</p>
+
+## Visualizar proyecto
+Ver el proyecto. Click [Aqui](https://github.com/ClementeGarcia15/Challenge-Hotel-Alura)
+
+## Ejecutar proyecto
+
+1.- Descarga el proyecto desde [Aqui](https://github.com/ClementeGarcia15/Challenge-Hotel-Alura/archive/refs/heads/main.zip)
+<br>
+2.- Una vez descargado el proyecto y descomprimido abre eclipse e importalo 
+
+
+## DESARROLLADOR
+💙 <strong>Clemente Garcia</strong></br>
 <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
