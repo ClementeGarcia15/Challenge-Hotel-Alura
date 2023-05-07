@@ -95,7 +95,7 @@ Click [Aqui](#creando-base-de-datos) para mirar imagen.
 
 <br>
 
-3.- Una vez que hayas creado la base de datos se te volvera a abrir la ventana de Inicio de sesion.
+3.- Una vez que hayas creado la base de datos se te volvera a abrir la ventana de Inicio de sesion. Deberas volver a poner los datos que se te piden y la base de datos que acabas de crear.
 
 <br>
 
@@ -103,7 +103,7 @@ Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
 
 <br>
 
-4.- y ahora se abrira otro ventana en donde crearas tu tabla utilizando la base de datos que haz hecho.
+4.- y ahora se abrira otra ventana en donde crearas tu tabla utilizando la base de datos que haz hecho.
 
 <br>
 
