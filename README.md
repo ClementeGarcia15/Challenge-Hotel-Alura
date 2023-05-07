@@ -75,7 +75,6 @@ Un ejemplo de esto es el siguente.
  * El nombre de la base de datos. si no haz creado una anteriormente deja en blanco este campo.
  * El usuario de la base de datos.
  * Y la contraseña. 
-
 <br>
 
 Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
@@ -86,18 +85,20 @@ Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
 
 <br>
 
-Click [Aqui](#creando-base-de-datos) para mirar imagen
+Click [Aqui](#creando-base-de-datos) para mirar imagen.
 
 <br>
 
 3.- Una vez que hayas creado la base de datos se te volvera a abrir la ventana de Inicio de sesion.
 
 <br>
+
 Click [Aqui](#iniciar-sesion-en-el-servidor) para mirar imagen.
 
 <br>
 
 4.- y ahora se abrira otro ventana en donde crearas tu tabla utilizando la base de datos que haz hecho.
+
 <br>
 
 Click [Aqui](#creando-tabla-utilizando-la-base-de-datos-creada-o-existente) para mirar imagen.
@@ -106,6 +107,8 @@ Click [Aqui](#creando-tabla-utilizando-la-base-de-datos-creada-o-existente) para
 
 
 listo haz creado una base de datos con su tabla y parametros. 😀 
+
+<br>
 
 ### Añadido adicional
 
@@ -123,6 +126,7 @@ listo haz creado una base de datos con su tabla y parametros. 😀
 </p>
 
 ## CREANDO TABLA UTILIZANDO LA BASE DE DATOS CREADA O EXISTENTE
+En este caso ya se a creado la base de datos "escuela" y se esta creando la tabla "alumnos" con la informacion adecuada (id, nombre, fecahNacimiento, etc..)
 
 <p align="center" >
      <img width="700" heigth="700" src="https://user-images.githubusercontent.com/75176552/236653027-44c6a421-caa6-4288-abd2-8137d52f2fcd.png">
