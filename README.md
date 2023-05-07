@@ -209,7 +209,7 @@ Ver el proyecto. Click [Aqui](https://github.com/ClementeGarcia15/Challenge-Hote
 
 1.- Descarga el proyecto desde [Aqui](https://github.com/ClementeGarcia15/Challenge-Hotel-Alura/archive/refs/heads/main.zip)
 <br>
-2.- Una vez descargado el proyecto y descomprimido abre eclipse e importalo 
+2.- Una vez descargado el proyecto y descomprimido abre eclipse crea un proyecto java e importa el src, JAR.
 
 
 ## DESARROLLADOR
