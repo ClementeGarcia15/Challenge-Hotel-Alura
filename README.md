@@ -66,9 +66,13 @@ En este repositorio se mostrara el challenge Hotel Alura y la explicación del f
 
 :heavy_check_mark: `Funcionalidad 6:` Base de datos para almacenar todos los datos pedidos anteriormente. <br><br>
 En este caso se creo un programa simple para crear base de datos y tablas con su respectiva informacion (filas, columnas, etc..). 
+
 <br>
+
 Click [Aqui](https://github.com/ClementeGarcia15/Challenge-Hotel-Alura/raw/main/CreadorDB_TB.jar) para descargarlo.
+
 <br>
+
 Un ejemplo de esto es el siguente.
 
 1.- Primero se abrira una ventana de inicio de sesion para conectar con el servidor. 
