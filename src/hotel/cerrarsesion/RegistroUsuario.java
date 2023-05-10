@@ -216,7 +216,7 @@ public class RegistroUsuario extends JFrame {
 
 				try {
 					conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_alura", "root",
-							"Cgtm1298-6.onion");
+							"Alura1234");
 				} catch (SQLException e1) {
 					System.out.println("Error al conectar a la base de datos: " + e1.getMessage());
 					System.exit(0);
